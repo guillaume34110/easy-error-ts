@@ -1,0 +1,15 @@
+{
+  "name": "easy-error-ts",
+  "version": "1.0.0",
+  "description": "minimalist error gestion for typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "guillaume gaillard",
+  "license": "ISC",
+  "types": "index.d.ts"
+  
+}
