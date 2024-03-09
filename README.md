@@ -47,7 +47,7 @@ Either is only a type for your return or others.
 
 ```typescript
 
-const fetchMyData = async () : Promise<Either<unknown>> => {
+const fetchMyData = async () : Promise<EasyEither<unknown>> => {
  try {
     const req = await fetch(
         `https://toto.com/api`

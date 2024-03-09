@@ -1,6 +1,6 @@
 {
   "name": "easy-error-ts",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "minimalist error gestion for typescript",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,5 @@
   "author": "guillaume gaillard",
   "license": "ISC",
   "types": "index.d.ts"
-  
+
 }
