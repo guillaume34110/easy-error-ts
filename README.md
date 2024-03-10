@@ -30,13 +30,13 @@ import { EasyCustomError, EasyLeft, EasyRight, EasyEither, left, right } from 'e
 #### Creating a Left instance
 
 ```typescript
-const leftValue: Left<number> = left(42);
+const leftValue: EasyLeft<number> = left(42);
 ```
 
 #### Creating a Right instance
 
 ```typescript
-const rightValue: Right<CustomError> = right(500, 'Internal Server Error');
+const rightValue: EasyRight<CustomError> = right(500, 'Internal Server Error');
 ```
 
 ### Working with Either instances 🛠️
