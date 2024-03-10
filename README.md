@@ -22,7 +22,7 @@ npm install easy-error-ts
 ### Importing 🔗
 
 ```typescript
-import { CustomError, Left, Right, Either, left, right } from 'easy-error-ts';
+import { CustomError, Left, Right, EasyEither, left, right } from 'easy-error-ts';
 ```
 
 ### Creating Either instances 🔧
@@ -41,9 +41,9 @@ const rightValue: Right<CustomError> = right(500, 'Internal Server Error');
 
 ### Working with Either instances 🛠️
 
-easy to use contains only an Either type for your return and a left and right functions
+easy to use contains only an EasyEither type for your return and a left and right functions
 the left is for the good result and the right is for the error.
-Either is only a type for your return or others.
+EasyEither is only a type for your return or others.
 
 ```typescript
 

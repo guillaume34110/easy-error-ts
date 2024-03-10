@@ -51,6 +51,8 @@ export const right = (code: number, message: string): EasyRight => [
   { code, message },
 ];
 
+// export * from './types'
+
 /**
  * The main easyError object containing all exports.
  */

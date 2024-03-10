@@ -22,6 +22,7 @@ var right = function (code, message) { return [
     { code: code, message: message },
 ]; };
 exports.right = right;
+// export * from './types'
 /**
  * The main easyError object containing all exports.
  */
