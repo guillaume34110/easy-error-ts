@@ -1,13 +1,13 @@
 {
   "name": "easy-error-ts",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "minimalist error gestion for typescript",
   "main": "lib.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["typescript" ,"ts" , "error" , "either" , "express" , "response" ],
   "author": "guillaume gaillard",
   "license": "ISC",
   "types": "lib.ts"
