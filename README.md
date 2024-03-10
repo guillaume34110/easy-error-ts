@@ -22,7 +22,7 @@ npm install easy-error-ts
 ### Importing 🔗
 
 ```typescript
-import { CustomError, Left, Right, EasyEither, left, right } from 'easy-error-ts';
+import { EasyCustomError, EasyLeft, EasyRight, EasyEither, left, right } from 'easy-error-ts';
 ```
 
 ### Creating Either instances 🔧
