@@ -36,7 +36,7 @@ const leftValue: EasyLeft<number> = left(42);
 #### Creating a Right instance
 
 ```typescript
-const rightValue: EasyRight<CustomError> = right(500, 'Internal Server Error');
+const rightValue: EasyRight<EasyCustomError> = right(500, 'Internal Server Error');
 ```
 
 ### Working with Either instances 🛠️

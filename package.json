@@ -1,6 +1,6 @@
 {
   "name": "easy-error-ts",
-  "version": "1.0.18",
+  "version": "1.0.20",
   "description": "minimalist error gestion for typescript",
   "main": "lib.ts",
   "scripts": {
